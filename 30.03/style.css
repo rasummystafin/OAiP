@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    background: #eee;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.info-row {
+    margin: 10px 0;
+}
+
+.label {
+    font-weight: bold;
+    width: 80px;
+    display: inline-block;
+}
+
+.value {
+    display: inline-block;
+}
+
+.empty {
+    margin: 15px 0;
+    color: #666;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0066cc;
+}

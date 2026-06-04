@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>function pomenat(str) {
+    let result = '', glasnie = ['a', 'e', 'i', 'o', 'u'];
+    
+    for (let i = 0; i < str.length; i++) {
+        let bukva = str[i];
+        
+        if (glasnie.includes(bukva.toLowerCase())) {
+            if (bukva == bukva.toLowerCase()) {
+                result += bukva.toUpperCase();
+            } else {
+                result += bukva.toLowerCase();
+            }
+        } else {
+            result += bukva;
+        }
+    }
+    return result;
+}
+
+console.log(pomenat("Hello world"));
+console.log(pomenat("Apple"));
+console.log(pomenat("JavaScript"));
+
+
+
+function summa(matrix) {
+    let sum = 0;
+    
+    for (let i = 0; i < matrix.length; i++) {
+        let min = Math.min(...matrix[i]);
+        sum += min;
+    }
+    
+    return sum;
+}
+let matrix = [[1, 2, 3], [5, 4, 6], [9, 8, 7]];
+console.log(summa(matrix));</script>
+</body>
+</html>

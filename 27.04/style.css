@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, select {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    resize: vertical;
+    width: 500px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background: #e0e0e0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.empty {
+    margin: 15px 0;
+    color: #666;
+}
+
+.comment {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.news-content {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.error {
+    color: red;
+    background: #ffebee;
+    padding: 8px;
+    border-left: 3px solid red;
+    margin-bottom: 15px;
+}
+
+.anons {
+    font-size: 13px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.prosmotr {
+    text-align: center;
+    width: 80px;
+}
+
+.razdel {
+    width: 150px;
+}
